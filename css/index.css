@@ -1,0 +1,100 @@
+	body,html{
+		width: 100%;
+		height: auto;
+		margin:0;
+		background: #CDCDCD;
+	}
+	.header{
+		width: 100%;
+		height: 50px;
+		background: #323232;
+		line-height: 50px;
+	}
+	.add{
+		max-width: 1000px;
+		height: 100%;
+		margin:0 auto;
+	}
+	.title{
+		float: left;
+		width: 100px;
+		line-height: 50px;
+		color: #DDD;
+		font-size: 24px;
+		cursor: pointer;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		margin-left: 18%;
+	}
+	.addlist{
+		float: right;
+		width: 60%;
+		height: 30px;
+		margin-top: 12px;
+		text-indent: 10px;
+		border-radius: 5px;
+		box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+		border: none;
+	}
+	.doing{
+		max-width: 1000px;
+		height: auto;
+		margin:20px auto;
+		overflow: hidden;
+	}
+	.over{
+		max-width: 1000px;
+		height: auto;
+		margin:20px auto;
+	}	
+	.doing span,.over span{
+		font-size: 12px;
+		display: block;
+		height: 20px;
+		width: 20px;
+		text-align: center;
+		line-height: 20px;
+		float: right;
+		border-radius: 50%;
+		background: #E6E6FA;
+	}
+	.doing .list{
+		width: 100%;
+		height: 100%;
+		background: white;
+		margin-bottom:10px;
+		line-height: 40px;
+		border-radius: 5px;
+		padding-right: 30px;
+		padding-left: 20px;
+		box-sizing:border-box;
+		position: relative;
+	}
+	.over .list{
+		opacity: 0.6;
+		width: 100%;
+		height: 100%;
+		background: white;
+		margin-bottom:10px;
+		line-height: 40px;
+		border-radius: 5px;
+		padding-right: 30px;
+		padding-left: 20px;
+		box-sizing:border-box;
+		position: relative;
+	}
+	.list i{
+		display: inline-block;
+		width: 100%;
+	}
+	.list #dian{
+		position: absolute;
+		left: 0;
+		top: 10px;
+	}
+	.doing li span,.over li span{
+		margin-top: 10px;
+		background: #E56979;
+		position: absolute;
+		right: 5px;
+		top:0px;
+	}
